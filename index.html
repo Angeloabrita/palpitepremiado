@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- social meta -->
+    <meta property="og:url"            content="index;html" />
+<meta property="og:title"              content="Palpite premiado" />
+<meta property="og:description"        content="Um gerador de numeros aleatorios e da loteria feito para você" />
+<meta property="og:image"              content="./assets/logoico.png" />
+    
+    <title>Palpipe premiado</title>
+</head>
+
+<body>
+    <header class="header">
+        <div style="float: left; width: 15%;"> <img class="img" src="./assets/logoico.png" alt="agtaicon"></div>
+        <div style="float: left; width: 70%;"><h1>Palpite premiado!</h1>
+            <h2>precisando de um palpite para jogar na loteria</h2>
+            <p>O palpite premiado é o local certo para voce</p>
+            <p>Aqui voce gera numeros aleatorios para jogar nos seus jogar nos seus jogos favoritos</p></div>
+        <div style="float: left; width: 15%;"> <img class="img" src="./assets/logo-mega-sena-em-png.png" alt="papalpite premiado icon"></div>
+        
+     
+    </header>
+
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+     
+      <label for="rangeMin">Range min</label>
+      <input type="text" name="rangeMin" id="rangeMin" value=0>
+
+      <label for="rangeMax">Range max</label>
+      <input type="text" name="rangeMax" id="rangeMax" value=100> <br><br>
+      
+      <label for="TotalLines">Numeros de linhas do gerador</label>
+      <input type="text" name="TotalLines" id="TotalLines" value=3>
+
+      <label for="totalColun">Numeros de colunas do gerador</label>
+      <input type="text" name="totalColun" id="totalColun" value=3>
+      
+      <button class="button" id="MakeMagicRandow" onclick="addTable()">GERAR NUMEROS ALEATORIOS</button>
+
+    </div>
+  
+  </div>
+     
+    <section>
+        <nav>
+            <ul>
+                <li><button class="button" onclick="showNumber('mega')">GERAR NUMERO MEGASENA</button></li>
+                <li><button class="button" onclick="showNumber('quina')">GERAR NUMERO QUINA</button></li>
+                <li><button class="button" id="ale">GERAR NUMERO ALEATORIOS</button></li>
+            </ul>       
+        </nav>  
+            <article id="showValue">
+                <h2  style="color: rgb(4, 117, 1); text-align: center;">Click na opção gere um numero da sorte</h2>
+                <img src="./assets/logo-mega-sena-em-png.png" alt="logomegasena" class="img">
+            </article>
+    </section>
+    <footer>
+        <div><h3>Quer conhecer mais do meu trabalho! acesse:</h3>
+            <a href="https//:fb/agtastudios.com"><i class="fab fa-facebook"></i>
+            <a href="https//:twitter/agtastudios.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UCuda-EA8PgcKFjZgXFyGNmg"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/Angeloabrita"><i class="fab fa-github"></i></a>
+        
+        </div>
+        
+        
+        <div><a href=""><img style="max-width: 50px; height: auto; float: right; margin-top: 15px;" src="./assets/logoico.png" alt="agtaicon"></a></div>
+       
+        <script src="./js/app.js"></script>
+      
+    </footer>
+</body>
+
+</html>
