@@ -1,19 +1,18 @@
 # PALPITE PREMIADO
 ### for english see bellow PT text
 
-Um simples gerador de numero aleatórios e numeros para loterias  .
+Um simples gerador de numero aleatórios e números para loterias.
 
 ## Demo
 
-você pode usar o demo acessando o link [link](https://angeloabrita.github.io/palpitepremiado/).
+Você pode usar o demo acessando o link [link](https://angeloabrita.github.io/palpitepremiado/).
 
 ```git
-git clone install foobar
+git clone install https://angeloabrita.github.io/palpitepremiado.git
 ```
 
 ## Contribuição
 Esse simples app desenvolvido para como estudo usando como base o [99app_ideias](https://github.com/Angeloabrita/app-ideas). Um repositório com varias ideias de apps para você ir treinando suas habilidades. 
-
 
 
 ## License
@@ -30,12 +29,11 @@ A simple random number generator and lottery numbers.
 you can use the demo by going to the [link](https://angeloabrita.github.io/palpitepremiado/) link.
 
 ```git
-git clone install foobar
+git clone install https://angeloabrita.github.io/palpitepremiado.git
 ```
 
 ## Contribution
 This simple app developed for a study using as a basis [99app_ideias](https://github.com/Angeloabrita/app-ideas). A repository with several app ideas for you to train your skills.
-
 
 
 ## License
