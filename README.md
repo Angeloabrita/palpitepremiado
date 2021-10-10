@@ -8,7 +8,7 @@ Um simples gerador de numero aleatórios e numeros para loterias  .
 você pode usar o demo acessando o link [link](https://angeloabrita.github.io/palpitepremiado/).
 
 ```git
-git clone install foobar
+git clone install https://angeloabrita.github.io/palpitepremiado.git
 ```
 
 ## Contribuição
